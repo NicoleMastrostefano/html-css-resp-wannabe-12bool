@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 [class*="col-"] {
@@ -15,7 +15,6 @@ header {
   padding-top:80px;
 }
 
-
 main {
   width: 100%;
   background-color: #f9f9f9;
@@ -28,10 +27,11 @@ main h2 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 h3 {
+  font-size:1.4em;
   margin-bottom: 20px;
 }
 
@@ -52,17 +52,26 @@ footer img {
 
 @media screen and (max-width: 767px) {
 
+  [class*="col-"]{
+    padding:0px;
+  }
+
   header{
     background-color: #FFFFD0;
     padding-top:1%;
   }
 
-  [class*="col-"]{
-    padding: 0px;
-  }
-
   main {
     margin-top: 20px;
+  }
+
+  h3 {
+    margin-bottom: 0px;
+  }
+
+  header p,
+  main p {
+    margin-bottom: 25px;
   }
 
   footer {
@@ -73,6 +82,7 @@ footer img {
   footer img {
     margin-top:20px;
     height: 200px;
+    margin-bottom:0px;
   }
 
 }

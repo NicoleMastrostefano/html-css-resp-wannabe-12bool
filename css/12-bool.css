@@ -16,12 +16,10 @@
   clear: both;
 }
 
-
 [class*='col-'] {
   float: left;
   height: 100%;
 }
-
 
 /* devices large */
 @media screen and (min-width: 992px) {
