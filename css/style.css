@@ -12,8 +12,7 @@ img {
 }
 
 header {
-  background-color: white;
-  padding-top:100px;
+  padding-top:80px;
 }
 
 
@@ -37,7 +36,6 @@ h3 {
 }
 
 footer {
-
   width: 100%;
   background-color: #f9f9f9;
   margin-top:100px;
@@ -50,4 +48,30 @@ footer img {
   border-radius: 50%;
   margin-top: 80px;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+
+  header{
+    background-color: #FFFFD0;
+    padding-top:1%;
+  }
+
+  [class*="col-"]{
+    padding: 0px;
+  }
+
+  main {
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: #FFFFD0;
+    margin-top: 20px;
+  }
+
+  footer img {
+    margin-top:20px;
+  }
+
 }
