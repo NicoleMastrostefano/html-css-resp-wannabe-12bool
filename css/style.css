@@ -16,7 +16,6 @@ header {
 }
 
 main {
-  width: 100%;
   background-color: #f9f9f9;
   margin-top:100px;
 }
@@ -36,7 +35,6 @@ h3 {
 }
 
 footer {
-  width: 100%;
   background-color: #f9f9f9;
   margin-top:100px;
 }
@@ -85,4 +83,27 @@ footer img {
     margin-bottom:0px;
   }
 
+}
+
+@media screen and ((min-width: 768px) and (max-width: 991px) {
+
+  header {
+    background-color: #f9f9f9;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+  footer img {
+    height: 200px;
+  }
+
+  hr {
+    display: none;
+  }
 }
